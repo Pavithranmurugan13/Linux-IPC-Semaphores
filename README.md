@@ -19,16 +19,7 @@ Write the C Program using Linux Process API - Sempahores
 Execute the C Program for the desired output. 
 
 # PROGRAM:
-# Developed by
-
-Name : MOHAMMED SAAJID S
-
-Reg No : 212223240093
-
-
-## Write a C program that implements a producer-consumer system with two processes using Semaphores.
-
-```c
+```
 /*
  * sem.c  - demonstrates a basic producer-consumer
  *                            implementation.              */
@@ -113,16 +104,20 @@ if(NUM_LOOPS>=10)    {
     }
     return 0;}
 ```
+## Write a C program that implements a producer-consumer system with two processes using Semaphores.
+
+
 
 
 ## OUTPUT
-$ ./sem.o 
+## $ ./sem.o 
+![Screenshot 2024-11-06 084350](https://github.com/user-attachments/assets/7e275e8c-ceb2-4ecf-81e5-9db32dd191f8)
 
-![alt text](image.png)
 
-$ ipcs
+## $ ipcs
+![Screenshot 2024-11-06 084413](https://github.com/user-attachments/assets/f7450e74-815f-4c25-9c7d-5337d5391f0b)
 
-![alt text](image-1.png)
+
 
 
 
